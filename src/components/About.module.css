@@ -1,0 +1,13 @@
+.section { padding: 4rem 0 1rem; }
+
+.text {
+  font-size: 1rem;
+  color: var(--text-muted);
+  line-height: 1.85;
+  max-width: 620px;
+}
+
+.text strong {
+  color: var(--text);
+  font-weight: 500;
+}

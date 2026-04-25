@@ -1,0 +1,18 @@
+.label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.label::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}

@@ -1,0 +1,32 @@
+.section { padding: 4rem 0 1rem; }
+
+.grid { display: flex; flex-direction: column; gap: 1rem; }
+
+.card {
+  padding: 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg-card);
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.card:hover { border-color: var(--accent); background: var(--bg-hover); }
+
+.degree {
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 0.2rem;
+  color: var(--text);
+}
+
+.school {
+  font-size: 0.875rem;
+  color: var(--accent-light);
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+
+.detail {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
