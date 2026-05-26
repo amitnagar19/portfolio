@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://amit-nagar-portfolio.netlify.app/sitemap.xml
