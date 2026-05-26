@@ -41,6 +41,8 @@
 
 .links a:hover { color: var(--text); }
 
+.activeLink { color: var(--accent) !important; }
+
 .toggle {
   background: var(--bg-card);
   border: 1px solid var(--border);

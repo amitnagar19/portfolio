@@ -10,8 +10,8 @@ const Experience: FC = () => {
     <section id="experience" ref={ref} className={`${styles.section} fade-up`}>
       <SectionLabel>Experience</SectionLabel>
       <div className={styles.timeline}>
-        {experience.map((job, i) => (
-          <div key={i} className={`${styles.item} ${job.current ? styles.current : ''}`}>
+        {experience.map((job) => (
+          <div key={`${job.company}-${job.period}`} className={`${styles.item} ${job.current ? styles.current : ''}`}>
             <div className={styles.header}>
               <span className={styles.title}>{job.title}</span>
               <span className={styles.period}>{job.period}</span>
@@ -20,7 +20,7 @@ const Experience: FC = () => {
               {job.company}{job.location ? ` · ${job.location}` : ''}
             </div>
             <ul className={styles.points}>
-              {job.points.map((p, j) => <li key={j}>{p}</li>)}
+              {job.points.map((p) => <li key={p}>{p}</li>)}
             </ul>
           </div>
         ))}

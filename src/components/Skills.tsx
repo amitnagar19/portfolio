@@ -61,18 +61,18 @@ const Skills: FC = () => {
       {skills.map(({ category, items }) => (
         <div key={category} className={styles.group}>
           <h3 className={styles.category}>{category}</h3>
-          <div className={styles.grid}>
+          <ul className={styles.grid}>
             {items.map(item => {
               const def = iconMap[item] ?? fallback;
               const Icon = def.icon;
               return (
-                <div key={item} className={styles.card}>
+                <li key={item} className={styles.card}>
                   <Icon className={styles.icon} style={{ color: def.color }} />
                   <span className={styles.name}>{item}</span>
-                </div>
+                </li>
               );
             })}
-          </div>
+          </ul>
         </div>
       ))}
     </section>

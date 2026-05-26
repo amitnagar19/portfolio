@@ -6,7 +6,7 @@ export const meta = {
   email: 'amitnagar19@gmail.com',
   phone: '+43 670 4003031',
   linkedin: 'https://linkedin.com/in/amit-nagar-01921a8a',
-  github: 'https://github.com/amitnagar1',
+  github: 'https://github.com/amitnagar19',
   summary:
     'Software engineer with 7+ years of experience building high-quality, performant web applications. Deep expertise in React and TypeScript, with a proven track record of delivering complex user-facing products in fast-paced, cross-functional teams. Passionate about clean architecture, developer experience, and creating interfaces that users love. Leverages AI-augmented workflows (Claude Code, GitHub Copilot) to accelerate delivery and maintain quality at scale.',
 };
