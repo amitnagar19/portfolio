@@ -6,6 +6,7 @@ import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import Contact from './components/Contact';
+import ScrollToTop from './components/ScrollToTop';
 import './App.css';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <footer>
         <p>Amit Nagar · Vienna, Austria</p>
       </footer>
+      <ScrollToTop />
     </>
   );
 }
